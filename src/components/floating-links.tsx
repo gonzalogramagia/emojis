@@ -1,59 +1,50 @@
-import { Smile, Music, Joystick, ClipboardClock } from 'lucide-react'
+import { Smile, BookCheck, Shovel, ClipboardClock } from 'lucide-react'
 import { useLanguage } from '../contexts/language-context'
 
 export function FloatingLinks() {
-    const { language, t } = useLanguage()
-    const isEnglish = language === 'en'
-
-    // Logic for URLs
-    const getUrl = (baseUrl: string) => isEnglish ? `${baseUrl}/en` : baseUrl
-
-    const homeUrl = getUrl("https://today.gonzalogramagia.com")
-    // const emojisUrl = getUrl("https://emojis.gonzalogramagia.com") // Unused because button is disabled
-    const musicUrl = getUrl("https://music.gonzalogramagia.com")
-
-    const playUrl = getUrl("https://play.gonzalogramagia.com")
+    const { t } = useLanguage()
 
     return (
         <div className="fixed bottom-8 left-8 flex gap-3 z-50">
-            {/* Home Button */}
+            {/* 1 - Hoy Button */}
             <a
-                href={homeUrl}
+                href="https://apex.hoy.today"
                 className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
-                aria-label={t('ariaHome')}
-                title={t('ariaHome')}
+                aria-label={t('ariaHome') || 'Hoy'}
+                title={t('ariaHome') || 'Hoy'}
             >
                 <ClipboardClock className="w-6 h-6 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
             </a>
 
-            {/* Emojis Button (Disabled) */}
+            {/* 2 - Emojis Button (Disabled) */}
             <button
                 disabled
                 className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg transition-all opacity-50 cursor-not-allowed group"
-                aria-label={t('ariaEmojis')}
-                title={t('ariaEmojis')}
+                aria-label={t('ariaEmojis') || 'Emojis'}
+                title={t('ariaEmojis') || 'Emojis'}
             >
                 <Smile className="w-6 h-6 text-zinc-900 dark:text-white transition-colors" />
             </button>
 
-            {/* Music Button */}
+            {/* 3 - Scripting Expansible Button */}
             <a
-                href={musicUrl}
-                className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
-                aria-label={t('ariaMusic')}
-                title={t('ariaMusic')}
+                href="https://apex-private.onrender.com"
+                className="peer group flex items-center p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 cursor-pointer"
+                aria-label="Scripting"
             >
-                <Music className="w-6 h-6 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
+                <BookCheck className="w-6 h-6 shrink-0 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
+                <span className="text-sm font-semibold max-w-0 opacity-0 overflow-hidden whitespace-nowrap transition-all duration-300 ease-in-out group-hover:max-w-[150px] group-hover:opacity-100 group-hover:ml-2 group-hover:text-yellow-500">
+                    Ir al Scripting
+                </span>
             </a>
 
-            {/* Play Button */}
+            {/* 4 - Shovel Contráctil Button */}
             <a
-                href={playUrl}
-                className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
-                aria-label={t('ariaPlay')}
-                title={t('ariaPlay')}
+                href="https://apex.antipala.pro"
+                className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl overflow-hidden transition-all duration-300 peer-hover:w-0 peer-hover:p-0 peer-hover:border-0 peer-hover:opacity-0 peer-hover:ml-[-12px] group cursor-pointer flex items-center justify-center shrink-0"
+                aria-label="Antipala"
             >
-                <Joystick className="w-6 h-6 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
+                <Shovel className="w-6 h-6 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
             </a>
         </div>
     )

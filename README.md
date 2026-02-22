@@ -56,9 +56,10 @@
 
 
 ### 🔗 Quick Links
-- **Today**: Navigate back to the main portal.
-- **Music**: Switch to the Music app.
-- **Play**: Take a break and play.
+- **Hoy**: Navigate back to the main portal (https://apex.hoy.today).
+- **Emojis**: Navigate to Mil Emojis (https://apex.milemojis.com).
+- **Scripting**: Switch to the Scripting app (https://apex-private.onrender.com).
+- **Antipala**: Take a break and play Antipala (https://apex.antipala.pro).
 
 ---
 
