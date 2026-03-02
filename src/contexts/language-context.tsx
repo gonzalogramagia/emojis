@@ -97,23 +97,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         }
     }, [location.pathname, navigate]);
 
-    // Handle initial redirect based on stored preference
-    useEffect(() => {
-        const storedLang = localStorage.getItem("language") as Language;
-        if (!storedLang) return;
-
-        // Verify if we are at root paths
-        const isRoot = location.pathname === "/" || location.pathname === "/en";
-
-        if (isRoot) {
-            if (storedLang === "en" && location.pathname === "/") {
-                navigate("/en", { replace: true });
-            } else if (storedLang === "es" && location.pathname === "/en") {
-                navigate("/", { replace: true });
-            }
-        }
-    }, []); // Run only on mount to avoid conflicting with active navigation
-
     useEffect(() => {
         document.documentElement.lang = language;
     }, [language]);
