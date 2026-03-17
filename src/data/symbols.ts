@@ -42,7 +42,7 @@ export const symbols: SymbolItem[] = [
     { id: "23", symbol: "😬", description: { es: { main: ":8", secondary: ["Enojado", "Mordiendo", "Indignado"] }, en: { main: ":8", secondary: ["Grimacing", "Indignant"] } }, tags: { es: ["Cara"], en: ["Face"] } },
     { id: "24", symbol: "🫳", description: { es: { main: "Cuarteto", secondary: ["Drop"] }, en: { main: "Cuarteto", secondary: ["Drop"] } }, tags: { es: ["Argentina", "Entretenimiento", "Fiesta"], en: ["Argentina", "Entertainment", "Party"] } },
     { id: "25", symbol: "🫴", description: { es: { main: "Cuarteto" }, en: { main: "Cuarteto" } }, tags: { es: ["Argentina", "Entretenimiento", "Fiesta"], en: ["Argentina", "Entertainment", "Party"] } },
-    { id: "26", symbol: "🫡", description: { es: { main: "A la orden" }, en: { main: "At the order" } }, tags: { es: ["Cara"], en: ["Face"] } },
+    { id: "26", symbol: "🫡", description: { es: { main: "A la orden", secondary: ["al servicio", "servicio militar", "militar", "soldado", "saludo militar"] }, en: { main: "At the order", secondary: ["At your service", "Military service", "Military", "Soldier", "Military salute"] } }, tags: { es: ["Cara"], en: ["Face"] } },
     { id: "27", symbol: "😂", description: { es: { main: "Risa :')", secondary: ["Carcajada", "Humor", "Chiste"] }, en: { main: "Laughing" } }, tags: { es: ["Cara"], en: ["Face"] } },
     { id: "28", symbol: "🤣", description: { es: { main: "Risa XD" }, en: { main: "Laughing" } }, tags: { es: ["Cara"], en: ["Face"] } },
     { id: "29", symbol: "🔊", description: { es: { main: "Sonido" }, en: { main: "Sound" } }, tags: { es: ["Música", "Sonido"], en: ["Music", "Sound"] } },
@@ -155,7 +155,7 @@ export const symbols: SymbolItem[] = [
     { id: "136", symbol: "🕸", description: { es: { main: "Red", secondary: ["Tela de Arana"] }, en: { main: "Red", secondary: ["Tela de Spider"] } }, tags: { es: ["Random"], en: ["Random"] } },
     { id: "137", symbol: "⚽", description: { es: { main: "Pelota de Futbol", secondary: ["Gol"] }, en: { main: "Soccer Ball", secondary: ["Goal"] } }, tags: { es: ["Deportes", "Pelotas", "Futbol"], en: ["Sports", "Balls", "Soccer"] } },
     { id: "1018", symbol: "🥅", description: { es: { main: "Arco de Futbol", secondary: ["Arco", "Cancha", "Gol"] }, en: { main: "Soccer Goal", secondary: ["Goal", "Net"] } }, tags: { es: ["Deportes", "Futbol"], en: ["Sports", "Soccer"] } },
-    { id: "138", symbol: "📸", description: { es: { main: "Flash de Cámara" }, en: { main: "Flash of Camera" } }, tags: { es: ["Tecnologia", "Objetos"], en: ["Technology", "Objects"] } },
+    { id: "138", symbol: "📸", description: { es: { main: "Flash de Cámara", secondary: ["foto"] }, en: { main: "Flash of Camera", secondary: ["photo"] } }, tags: { es: ["Tecnologia", "Objetos"], en: ["Technology", "Objects"] } },
     { id: "139", symbol: "📝", description: { es: { main: "Papel y Lápiz", secondary: ["Papel y Lapiz"] }, en: { main: "Paper and Pencil" } }, tags: { es: ["Oficina", "Tareas"], en: ["Office", "Tasks"] } },
     { id: "140", symbol: "🪹", description: { es: { main: "Nido Vacio" }, en: { main: "Empty Nest" } }, tags: { es: ["Animales"], en: ["Animals"] } },
     { id: "141", symbol: "🪺", description: { es: { main: "Nido Lleno" }, en: { main: "Full Nest" } }, tags: { es: ["Animales"], en: ["Animals"] } },
@@ -329,7 +329,7 @@ export const symbols: SymbolItem[] = [
 
 
 
-    { id: "309", symbol: "🎤", description: { es: { main: "Mic" }, en: { main: "Mic" } }, tags: { es: ["Random", "Música", "Fiesta"], en: ["Random", "Music", "Party"] } },
+    { id: "309", symbol: "🎤", description: { es: { main: "Mic", secondary: ["micrófono", "microfono"] }, en: { main: "Mic", secondary: ["microphone"] } }, tags: { es: ["Random", "Música", "Fiesta"], en: ["Random", "Music", "Party"] } },
     { id: "310", symbol: "🍀", description: { es: { main: "Trébol de Cuatro Hojas", secondary: ["Suerte"] }, en: { main: "Four Leaf Clover", secondary: ["Luck"] } }, tags: { es: ["Plantas"], en: ["Plants"] } },
     { id: "311", symbol: "🍃", description: { es: { main: "Hojas" }, en: { main: "Leaves" } }, tags: { es: ["Plantas"], en: ["Plants"] } },
     { id: "312", symbol: "🔇", description: { es: { main: "Silencio", secondary: ["Muteado", "Sin sonido"] }, en: { main: "Silence", secondary: ["Mute", "No sound"] } }, tags: { es: ["Música", "Sonido"], en: ["Music", "Sound"] } },
@@ -1040,4 +1040,7 @@ export const symbols: SymbolItem[] = [
     { id: "1015", symbol: "🤏", description: { es: { main: "Por poco", secondary: ["Cerca", "Chiquito", "Chiquita"] }, en: { main: "Pinching Hand", secondary: ["Close", "Little", "Small"] } }, tags: { es: ["Gestos"], en: ["Gestures"] } },
     { id: "1016", symbol: "🫳🫴🫳🫴", description: { es: { main: "Cuarteto" }, en: { main: "Cuarteto Expression" } }, tags: { es: ["Expresiones"], en: ["Expressions", "Party"] } },
     { id: "1017", symbol: "🤐🫳🎤", description: { es: { main: "Drop Mic" }, en: { main: "Drop Mic" } }, tags: { es: ["Expresiones"], en: ["Expressions", "Party"] } },
+    { id: "1018", symbol: "∈", description: { es: { main: "Pertenece" }, en: { main: "Element of" } }, tags: { es: ["Símbolos", "Conjuntos", "Matematica", "Signos"], en: ["Symbols", "Sets", "Math", "Signs"] } },
+    { id: "1019", symbol: "∉", description: { es: { main: "No pertenece" }, en: { main: "Not an element of" } }, tags: { es: ["Símbolos", "Conjuntos", "Matematica", "Signos"], en: ["Symbols", "Sets", "Math", "Signs"] } },
+
 ];
