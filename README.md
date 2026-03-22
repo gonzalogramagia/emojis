@@ -50,7 +50,7 @@
 
 - **Hoy & Today**: Navigate to the main portal (https://hoy.today/en).
 - **Mil Emojis**: Navigate to Mil Emojis (https://milemojis.com/en).
-- **Music**: Your curated Disk3 collection ready at hand (https://bien.estate).
+  **Music**: Your curated music collection ready at hand (https://bien.estate).
 - **Play Antipala**: (https://antipala.pro/en).
 - **Moovimiento**: Visit Moovimiento (https://moovimiento.com/en).
 
