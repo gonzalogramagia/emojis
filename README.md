@@ -17,7 +17,7 @@
 - **📋 Instant Copy**: One-click copy with immediate visual feedback.
 - **🎨 Clean UI**: Minimalist design with a focus on usability.
 - **📂 Organized Library**: Structured categories for Emojis, Expressions, Letters, and Symbols.
-- **⬇️ Smart Navigation**: Stationary buttons for quick access to Home, Music, and Training apps.
+- **⬇️ Smart Navigation**: Stationary buttons for quick access to Home, Playlist, and Antipala Pro.
 
 ---
 
@@ -48,10 +48,10 @@
 
 ### 🔗 Quick Links
 Floating buttons for essential services:
-  - **[Home](https://home.hoy.today)**: Productivity dashboard for daily tasks and quick notes (everything stored locally in your browser for a secure and distraction-free workflow)
+  - **[Home](https://home.hoy.today)**: Productivity dashboard for daily tasks and quick notes.
   - **Emojis**: You are here!
   - **[Playlist](https://playlist.hoy.today)**: Your curated music collection ready at hand.
-  - **[Minigame](https://minigame.hoy.today)**: Take a break and play Antipala Pro.
+  - **[Antipala Pro](https://minigame.hoy.today)**: Take a break and play Antipala Pro.
   - **[Moovimiento](https://moovimiento.com/en)**: Visit Moovimiento.
 
 ---

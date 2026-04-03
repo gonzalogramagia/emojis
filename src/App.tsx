@@ -11,7 +11,7 @@ import ExportModal from "./components/export-modal";
 import ImportModal from "./components/import-modal";
 
 function AppContent() {
-  const { language } = useLanguage();
+  const { language, t } = useLanguage();
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [editingEmoji, setEditingEmoji] = useState(null);
 
@@ -48,8 +48,9 @@ function AppContent() {
           href={
             isEnglish ? "https://moovimiento.com/en" : "https://moovimiento.com"
           }
-          className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group flex items-center justify-center"
-          aria-label="Moovimiento"
+          className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group flex items-center justify-center cursor-pointer"
+          aria-label={t("ariaMoovimiento")}
+          title={t("ariaMoovimiento")}
           target="_blank"
           rel="noreferrer"
         >

@@ -6696,7 +6696,7 @@ export const symbols: SymbolItem[] = [
     id: "824",
     symbol: "¿",
     description: {
-      es: { main: "Interrogación" },
+      es: { main: "Signo de Interrogación", secondary: ["Interrogación"] },
       en: { main: "Question mark" },
     },
     tags: {
@@ -6936,7 +6936,7 @@ export const symbols: SymbolItem[] = [
     id: "848",
     symbol: "¡",
     description: {
-      es: { main: "Exclamación" },
+      es: { main: "Signo de Exclamación", secondary: ["Exclamación"] },
       en: { main: "Exclamation mark" },
     },
     tags: {
