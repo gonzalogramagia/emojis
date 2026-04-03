@@ -220,7 +220,7 @@ export function SymbolBrowser({ onEdit }: SymbolBrowserProps) {
                 >
                     <img
                         src="/milemojis.png"
-                        alt="Milemojis"
+                        alt="Emojis"
                         className={`h-64 md:h-80 w-auto object-contain hover:scale-105 transition-transform duration-500 drop-shadow-2xl -mt-10 -mb-8 md:-mt-14 md:-mb-12 md:-mr-7`}
                     />
                 </button>

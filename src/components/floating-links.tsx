@@ -9,9 +9,9 @@ export function FloatingLinks() {
   // Logic for URLs
   const getUrl = (baseUrl: string) => (isEnglish ? `${baseUrl}/en` : baseUrl);
 
-  const homeUrl = getUrl("https://hoy.today");
-  const musicUrl = getUrl("https://bien.estate");
-  const playUrl = getUrl("https://antipala.pro");
+  const homeUrl = getUrl("https://home.hoy.today");
+  const musicUrl = getUrl("https://playlist.hoy.today");
+  const playUrl = getUrl("https://minigame.hoy.today");
 
   return (
     <div className="fixed bottom-8 left-8 flex gap-3 z-50">
@@ -19,8 +19,8 @@ export function FloatingLinks() {
       <a
         href={homeUrl}
         className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
-        aria-label={t("ariaHome") || "Hoy"}
-        title={t("ariaHome") || "Hoy"}
+        aria-label={t("ariaHome") || "Home"}
+        title={t("ariaHome") || "Home"}
       >
         <ClipboardClock className="w-6 h-6 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors" />
       </a>
@@ -39,8 +39,8 @@ export function FloatingLinks() {
       <a
         href={musicUrl}
         className="p-3 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 group cursor-pointer"
-        aria-label={t("ariaMusic") || "Ir a Music"}
-        title={t("ariaMusic") || "Ir a Music"}
+        aria-label={t("ariaMusic") || "Ir a Playlist"}
+        title={t("ariaMusic") || "Ir a Playlist"}
       >
         <Disc3 className="w-6 h-6 text-zinc-900 dark:text-white group-hover:text-yellow-500 transition-colors animate-spin-slow" />
       </a>

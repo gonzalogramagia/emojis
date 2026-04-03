@@ -1,8 +1,8 @@
-# 😎 Mil Emojis
+# 😎 Emojis
 
 **A fast, accessible, and global collection of emojis and symbols for quick copy and pasting.**
 
-"Mil Emojis" is designed to be your go-to tool for finding the perfect symbol in a flash. With smart search and a clean interface, it helps you communicate your ideas clearly.
+"Emojis" is designed to be your go-to tool for finding the perfect symbol in a flash. With smart search and a clean interface, it helps you communicate your ideas clearly.
 
 ---
 
@@ -47,12 +47,12 @@
 - **Backups**: Inside the configuration modal, you can **Export** your data to a JSON file or **Import** a previous backup. Use this to save your data or transfer it to another device.
 
 ### 🔗 Quick Links
-
-- **Hoy & Today**: Navigate to the main portal (https://hoy.today/en).
-- **Mil Emojis**: Navigate to Mil Emojis (https://milemojis.com/en).
-  **Music**: Your curated music collection ready at hand (https://bien.estate).
-- **Play Antipala**: (https://antipala.pro/en).
-- **Moovimiento**: Visit Moovimiento (https://moovimiento.com/en).
+Floating buttons for essential services:
+  - **[Home](https://home.hoy.today)**: Productivity dashboard for daily tasks and quick notes (everything stored locally in your browser for a secure and distraction-free workflow)
+  - **Emojis**: You are here!
+  - **[Playlist](https://playlist.hoy.today)**: Your curated music collection ready at hand.
+  - **[Minigame](https://minigame.hoy.today)**: Take a break and play Antipala Pro.
+  - **[Moovimiento](https://moovimiento.com/en)**: Visit Moovimiento.
 
 ---
 
