@@ -3768,7 +3768,7 @@ export const symbols: SymbolItem[] = [
     id: "465",
     symbol: "🎥",
     description: {
-      es: { main: "Cámara de Video" },
+      es: { main: "Cámara de Video", secondary: ["Grabación"] },
       en: { main: "Movie Camera" },
     },
     tags: { es: ["Entretenimiento"], en: ["Entertainment"] },
@@ -6696,7 +6696,7 @@ export const symbols: SymbolItem[] = [
     id: "824",
     symbol: "¿",
     description: {
-      es: { main: "Signo de Interrogación", secondary: ["Interrogación"] },
+      es: { main: "Signo de Pregunta", secondary: ["Interrogación", "Signo de Interrogación"] },
       en: { main: "Question mark" },
     },
     tags: {
@@ -7846,7 +7846,7 @@ export const symbols: SymbolItem[] = [
     id: "953",
     symbol: "❓",
     description: {
-      es: { main: "Signo de Interrogación" },
+      es: { main: "Signo de Pregunta", secondary: ["Interrogación", "Signo de Interrogación"] },
       en: { main: "Question Mark" },
     },
     tags: { es: ["Signos", "Puntuación"], en: ["Signs", "Punctuation"] },
@@ -7882,7 +7882,7 @@ export const symbols: SymbolItem[] = [
     id: "957",
     symbol: "❔",
     description: {
-      es: { main: "Signo de Interrogación Blanco" },
+      es: { main: "Signo de Pregunta Blanco", secondary: ["Interrogación Blanco", "Signo de Interrogación Blanco"] },
       en: { main: "White Question Mark" },
     },
     tags: { es: ["Signos", "Puntuación"], en: ["Signs", "Punctuation"] },
@@ -8074,7 +8074,7 @@ export const symbols: SymbolItem[] = [
     id: "977",
     symbol: "📹",
     description: {
-      es: { main: "Cámara de Video", secondary: ["Grabar", "Película"] },
+      es: { main: "Cámara de Video", secondary: ["Grabación", "Grabar", "Película"] },
       en: { main: "Video Camera", secondary: ["Record", "Movie"] },
     },
     tags: {
