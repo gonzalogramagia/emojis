@@ -3255,7 +3255,20 @@ export const symbols: SymbolItem[] = [
     id: "400",
     symbol: "🔋",
     description: {
-      es: { main: "Batería", secondary: ["Bateria"] },
+      es: {
+        main: "Batería Llena",
+        secondary: [
+          "Baterias",
+          "Bateria Llena",
+          "Batería Completa",
+          "Bateria Completa",
+          "Energia",
+          "Energía",
+          "Energías",
+          "Pila",
+          "Pilas",
+        ],
+      },
       en: { main: "Battery" },
     },
     tags: { es: ["Random"], en: ["Random"] },
@@ -6285,7 +6298,17 @@ export const symbols: SymbolItem[] = [
     id: "774",
     symbol: "🪫",
     description: {
-      es: { main: "Batería Baja", secondary: ["Bateria baja"] },
+      es: {
+        main: "Batería Baja",
+        secondary: [
+          "Bateria baja",
+          "Energia",
+          "Energía",
+          "Energías",
+          "Pila",
+          "Pilas",
+        ],
+      },
       en: { main: "Low Battery", secondary: ["Low Battery"] },
     },
     tags: { es: ["Tecnologia"], en: ["Technology"] },
