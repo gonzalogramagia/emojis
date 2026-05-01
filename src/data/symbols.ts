@@ -2173,7 +2173,31 @@ export const symbols: SymbolItem[] = [
   {
     id: "262",
     symbol: "🤩",
-    description: { es: { main: "Fascinado" }, en: { main: "Fascinated" } },
+    description: {
+      es: {
+        main: "Fascinado",
+        secondary: [
+          "Asombro",
+          "asombrado",
+          "wow",
+          "maravillado",
+          "ojos estrellados",
+          "increible",
+          "espectacular",
+          "fascinado",
+          "impresionado",
+          "entusiasmado",
+          "entusiasmante",
+          "asombroso",
+          "boca abierta",
+          "ojos grandes",
+          "admiración",
+          "maravilla",
+          "estrella en los ojos",
+        ],
+      },
+      en: { main: "Fascinated" },
+    },
     tags: { es: ["Cara"], en: ["Face"] },
   },
   {
